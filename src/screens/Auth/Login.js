@@ -53,7 +53,7 @@ const Login = () => {
     return (
         <div className="login-body center">
             <div className="login-block center">
-                <h2>Login</h2>
+                <h2>Signin</h2>
                 <img className="logo-image" src={logoIcon} alt="logo-avatar" />
                 {authError && (
                     <span style={{ color: 'red' }} data-testid="login-error-span">
