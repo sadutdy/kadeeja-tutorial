@@ -54,7 +54,11 @@ const Login = () => {
     <div className="login-body center">
       <div className="login-block center">
         <h2>Signin</h2>
-        <span>New changes</span>
+        <span>
+          <strong>
+            <i>New changes</i>
+          </strong>
+        </span>
         <img className="logo-image" src={logoIcon} alt="logo-avatar" />
         {authError && (
           <span style={{ color: 'red' }} data-testid="login-error-span">
@@ -73,7 +77,7 @@ const Login = () => {
         <input
           className="input-box"
           type="password"
-          placeholder="Password"
+          placeholder="Sadu Password"
           value={password}
           onChange={handlePasswordChange}
           data-testid="login-password"
