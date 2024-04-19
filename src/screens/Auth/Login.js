@@ -88,7 +88,7 @@ const Login = () => {
           className="button"
           onClick={handleLogin}
         >
-          Login
+          Login - Stage
         </button>
       </div>
     </div>

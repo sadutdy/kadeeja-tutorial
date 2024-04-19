@@ -33,7 +33,7 @@ const Welcome = () => {
             Your selected language is : {lang}
           </span>
           <button className="button" onClick={handleLogout}>
-            Logout{' '}
+            Logout - changed
           </button>
         </div>
       </div>
