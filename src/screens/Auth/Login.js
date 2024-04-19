@@ -73,7 +73,7 @@ const Login = () => {
         <input
           className="input-box"
           type="password"
-          placeholder="Password"
+          placeholder="Sadu Password"
           value={password}
           onChange={handlePasswordChange}
           data-testid="login-password"
